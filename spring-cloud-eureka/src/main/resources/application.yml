@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sping-cloud-eureka-server
+  profiles:
+    active: @profileActive@
+
+
+
+

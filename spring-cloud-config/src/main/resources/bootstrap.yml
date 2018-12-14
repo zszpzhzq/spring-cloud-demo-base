@@ -1,0 +1,13 @@
+server:
+  port: 6080
+spring:
+  application:
+    name: spring-cloud-config-server
+    profiles:
+      active: active
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        native:
+          searchLocations: file:D:\workspase\workspaces-boot\spring-clould\spring-cloud-demo-base1\spring-cloud-config\src\main\resources
