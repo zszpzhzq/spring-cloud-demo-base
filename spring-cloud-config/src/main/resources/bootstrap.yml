@@ -7,5 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zszpzhzq/spring-cloud-demo-base.git
-          search-paths: config # config开头的目录搜索配置文件多个用，隔开
+          uri: git@github.com:zszpzhzq/configcenter.git
+          search-paths: config/service,config/eureka,config/web # config开头的目录搜索配置文件多个用，隔开
+
