@@ -3,11 +3,9 @@ server:
 spring:
   application:
     name: spring-cloud-config-server
-    profiles:
-      active: active
   cloud:
     config:
       server:
-        bootstrap: true
-        native:
-          searchLocations: file:D:\workspase\workspaces-boot\spring-clould\spring-cloud-demo-base1\spring-cloud-config\src\main\resources
+        git:
+          uri: https://github.com/zszpzhzq/spring-cloud-demo-base.git
+          search-paths: config # config开头的目录搜索配置文件多个用，隔开

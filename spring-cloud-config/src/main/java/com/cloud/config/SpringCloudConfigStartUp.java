@@ -12,6 +12,7 @@ public class SpringCloudConfigStartUp {
 
         SpringApplication.run(SpringCloudConfigStartUp.class, args);
         System.out.println("配置中心启动成功！");
+
     }
 
 }
